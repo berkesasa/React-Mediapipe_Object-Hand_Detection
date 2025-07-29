@@ -38,7 +38,7 @@ npm run deploy
 
 ## Canlı Demo
 
-Projenin canlı versiyonunu [buradan](https://berkesasa.github.io/mediapipe_detector) görüntüleyebilirsiniz.
+Projenin canlı versiyonunu [buradan](https://berkesasa.github.io/React-Mediapipe_Object-Hand_Detection) görüntüleyebilirsiniz.
 
 ## Teknolojiler
 
