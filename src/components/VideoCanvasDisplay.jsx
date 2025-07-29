@@ -14,14 +14,14 @@ const VideoCanvasDisplay = ({ videoRef, canvasRef }) => {
         >
           <video
             ref={videoRef}
-            className="block w-full h-full object-cover sm:object-contain scale-x-[-1]"
+            className="block w-full h-full object-contain scale-x-[-1]"
             autoPlay
             muted
             playsInline
           ></video>
           <canvas
             ref={canvasRef}
-            className="absolute top-0 left-0 w-full h-full object-cover sm:object-contain"
+            className="absolute top-0 left-0 w-full h-full object-contain"
           ></canvas>
           
           {/* Kamera durumu göstergesi */}
