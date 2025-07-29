@@ -1,12 +1,49 @@
-# React + Vite
+# MediaPipe Nesne Algılama Projesi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, MediaPipe kullanarak gerçek zamanlı nesne algılama yapan bir React uygulamasıdır.
 
-Currently, two official plugins are available:
+## Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Gerçek zamanlı nesne algılama
+- Web kamerası entegrasyonu
+- MediaPipe Tasks Vision API kullanımı
+- React + Vite ile geliştirilmiş
+- Tailwind CSS ile modern UI
 
-## Expanding the ESLint configuration
+## Kurulum
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+```
+
+## Geliştirme
+
+```bash
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## GitHub Pages Deployment
+
+Bu proje GitHub Pages üzerinde yayınlanmaktadır. Deployment için:
+
+```bash
+npm run deploy
+```
+
+## Canlı Demo
+
+Projenin canlı versiyonunu [buradan](https://berkesasa.github.io/mediapipe_detector) görüntüleyebilirsiniz.
+
+## Teknolojiler
+
+- React 19
+- Vite
+- MediaPipe Tasks Vision
+- Tailwind CSS
+- GitHub Pages
