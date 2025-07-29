@@ -1,22 +1,22 @@
-# MediaPipe Nesne Algılama Projesi
+# MediaPipe Object Detection Project
 
-Bu proje, MediaPipe kullanarak gerçek zamanlı nesne algılama yapan bir React uygulamasıdır.
+This project is a React application that performs real-time object detection using MediaPipe.
 
-## Özellikler
+## Features
 
-- Gerçek zamanlı nesne algılama
-- Web kamerası entegrasyonu
-- MediaPipe Tasks Vision API kullanımı
-- React + Vite ile geliştirilmiş
-- Tailwind CSS ile modern UI
+- Real-time object detection
+- Web camera integration
+- MediaPipe Tasks Vision API usage
+- Built with React + Vite
+- Modern UI with Tailwind CSS
 
-## Kurulum
+## Installation
 
 ```bash
 npm install
 ```
 
-## Geliştirme
+## Development
 
 ```bash
 npm run dev
@@ -30,17 +30,17 @@ npm run build
 
 ## GitHub Pages Deployment
 
-Bu proje GitHub Pages üzerinde yayınlanmaktadır. Deployment için:
+This project is published on GitHub Pages. For deployment:
 
 ```bash
 npm run deploy
 ```
 
-## Canlı Demo
+## Live Demo
 
-Projenin canlı versiyonunu [buradan](https://berkesasa.github.io/React-Mediapipe_Object-Hand_Detection) görüntüleyebilirsiniz.
+You can view the live version of the project [here](https://berkesasa.github.io/React-Mediapipe_Object-Hand_Detection).
 
-## Teknolojiler
+## Technologies
 
 - React 19
 - Vite
