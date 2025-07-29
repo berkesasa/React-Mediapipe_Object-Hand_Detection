@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { FilesetResolver, HandLandmarker } from "@mediapipe/tasks-vision";
+import hand_landmarker_task from "../models/hand_landmarker.task";
 
 // MediaPipe Hand Connections
 const HAND_CONNECTIONS = [
@@ -67,7 +68,7 @@ const HandDetectionApp = () => {
                 );
                 handLandmarker = await HandLandmarker.createFromOptions(
                     vision, {
-                    baseOptions: { modelAssetPath: "/hand_landmarker.task" },
+                    baseOptions: { modelAssetPath: hand_landmarker_task },
                     numHands: 2,
                     runningMode: "VIDEO"
                 }
