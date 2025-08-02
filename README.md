@@ -1,6 +1,6 @@
 # MediaPipe Object Detection Project
 
-This project is a React application that performs real-time object detection using MediaPipe.
+This project is a React application that performs real-time object and hand detection using MediaPipe.
 
 ## Features
 
